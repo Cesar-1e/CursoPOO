@@ -1,6 +1,6 @@
 # Curso POO
 **Programación Orientada a Objetos: POO**
-Esta hecho con mucho amor por el aprendizaje de [Platzi](https://platzi.com "Platzi") :green_heart:
+Esta hecho con mucho amor por el aprendizaje de [Platzi](https://platzi.com/r/cesarcalad/ "Platzi") :green_heart:
 
 ## Introducción
 ### Paradigma Orientado a Objetos
