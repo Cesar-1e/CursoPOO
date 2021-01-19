@@ -43,3 +43,12 @@ Los beneficios de utilizar la modularidad son los siguientes:
 - Hacer nuestro código más mantenible
 - Legibilidad
 - Resolución rápida de problemas
+
+## Programación Orientada a Objetos. Análisis
+### ¿Qué es la herencia?
+#### DRY: Don't repeat yourself
+- Promueve la reducción de duplicación en la programación
+- Toda pieza de información nunca debe ser duplicada debido a que la duplicación incrementa la dificultad en los cambios y su evolución
+
+La herencia nos permite crear nuevas clases a partir de otras, en pocas palabras al dectectar elementos duplicados realizaremos una abstracción para crear una clase general. Se estructura una jerarquía de **Padre** e **hijo(s)**.
+[![Herencia de clases](https://pbs.twimg.com/media/EsD8MA8XAAA4ppb?format=png&name=small "Herencia de clases")](https://platzi.com/comentario/2172174/ "Herencia de clases")
