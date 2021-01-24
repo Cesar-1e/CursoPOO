@@ -51,4 +51,56 @@ Los beneficios de utilizar la modularidad son los siguientes:
 - Toda pieza de información nunca debe ser duplicada debido a que la duplicación incrementa la dificultad en los cambios y su evolución
 
 La herencia nos permite crear nuevas clases a partir de otras, en pocas palabras al dectectar elementos duplicados realizaremos una abstracción para crear una clase general. Se estructura una jerarquía de **Padre** e **hijo(s)**.
-[![Herencia de clases](https://pbs.twimg.com/media/EsD8MA8XAAA4ppb?format=png&name=small "Herencia de clases")](https://platzi.com/comentario/2172174/ "Herencia de clases")
+[![Herencia>[![Herencia de clases](https://pbs.twimg.com/media/EsD8MA8XAAA4ppb?format=png&name=small "Herencia de clases")](https://platzi.com/comentario/2172174/ "Herencia de clases")
+## Clases, Objetos y Método Constructor
+### Objetos, método constructor y su sintaxis en código
+El objeto es el resultado de lo que modelamos, es decir, al instanciar una clase, esto se convierte en un objeto. Por ejemplo:
+Java
+
+	Car car = new Car();
+Javascript
+
+	var car = new Car();
+PHP
+
+	$car = new Car();
+Python
+
+	car = Car()
+Los metodos constructores dan un estado inicial al objeto y podemos añadirle parametros, lo cual seran los datos requeridos. Por ejemplo:
+Java
+
+	public Car(String license, Account driver){
+		this.license = license;
+		this.driver = driver;
+	}
+Javascript
+
+	function Car(license, driver){
+		this.id;
+		this.license= license;
+		this.driver = driver;
+		this.passenger;
+	}
+PHP
+
+	public function __constructor($license, $driver){
+		$this->license = $license;
+	}
+Python
+
+	def __init__(self, license, driver):
+		self.license = license
+		self.driver = driver
+
+#### Las nuevas especificaciones del EcmaScript6, podemos declarar una clase
+Se instancia de manera igual
+
+	var car = new Car();
+Mientras que el metodo constructor es diferente
+	constructor(license, driver){
+		this.id;
+		this.license = license;
+		this.driver = driver;
+		this.passenger;
+	}
