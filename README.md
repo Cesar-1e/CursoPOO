@@ -51,7 +51,10 @@ Los beneficios de utilizar la modularidad son los siguientes:
 - Toda pieza de información nunca debe ser duplicada debido a que la duplicación incrementa la dificultad en los cambios y su evolución
 
 La herencia nos permite crear nuevas clases a partir de otras, en pocas palabras al dectectar elementos duplicados realizaremos una abstracción para crear una clase general. Se estructura una jerarquía de **Padre** e **hijo(s)**.
-[![Herencia>[![Herencia de clases](https://pbs.twimg.com/media/EsD8MA8XAAA4ppb?format=png&name=small "Herencia de clases")](https://platzi.com/comentario/2172174/ "Herencia de clases")
+<p align="center">
+<a href="https://platzi.com/comentario/2172174/"><img  src="https://pbs.twimg.com/media/EsD8MA8XAAA4ppb?format=png&name=small" alt="Herencia de clases"></a>
+</p>
+
 ## Clases, Objetos y Método Constructor
 ### Objetos, método constructor y su sintaxis en código
 El objeto es el resultado de lo que modelamos, es decir, al instanciar una clase, esto se convierte en un objeto. Por ejemplo:
@@ -98,6 +101,7 @@ Se instancia de manera igual
 
 	var car = new Car();
 Mientras que el metodo constructor es diferente
+
 	constructor(license, driver){
 		this.id;
 		this.license = license;
