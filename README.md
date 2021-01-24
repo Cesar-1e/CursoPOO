@@ -87,7 +87,7 @@ Javascript
 	}
 PHP
 
-	public function __constructor($license, $driver){
+	public function __construct($license, $driver){
 		$this->license = $license;
 	}
 Python
