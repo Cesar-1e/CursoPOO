@@ -8,5 +8,13 @@ class Main{
        Car car2 = new Car("QWE567", new Account("Andrea Herrera", "ANDA876"));
        car2.passegenger = 3;
        car2.printDataCar();
+
+       System.out.println("Account");
+
+       User user = new User("César Augusto", "QWE789");
+       user.printDataUser();
+
+       Driver driver = new Driver("Gabriel", "ASR754");
+       driver.printDataDriver();
    } 
 }

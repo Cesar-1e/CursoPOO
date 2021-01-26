@@ -10,5 +10,9 @@ class Account{
         $this->name = $name;
         $this->document = $document;
     }
+
+    public function dataPrintAccount(){
+        echo "Name: " . $this->name . " Document: " . $this->document . "<br>";
+    }
 }
 ?>
