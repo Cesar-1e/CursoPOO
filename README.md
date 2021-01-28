@@ -108,3 +108,11 @@ Mientras que el metodo constructor es diferente
 		this.driver = driver;
 		this.passenger;
 	}
+
+## Encapsulamiento
+Para que un dato permanezca inviolabre, inalterable, se le asigna un modificador de acceso.
+Los modificadores de acceso son los siguiente:
+- **public:** Todas las clases
+- **protected:** Clases, Paquetes y Subclases
+- **default:** Clases y Paquetes
+- **private:** Clases|
