@@ -116,3 +116,9 @@ Los modificadores de acceso son los siguiente:
 - **protected:** Clases, Paquetes y Subclases
 - **default:** Clases y Paquetes
 - **private:** Clases|
+
+## Polimorfismo
+Significa muchas formas. **Poli** = muchas, **morfismo** = formas.
+*Importante: **NO** es Poliformismo*
+
+> Construye métodos con el mismo nombre pero con comportamiento diferente
